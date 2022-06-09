@@ -1,0 +1,87 @@
+* {
+    background: rgb(53, 53, 53);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1200px;
+    height:100px;
+    margin:auto;
+}
+
+.main-list{
+    display:flex;
+    width:600px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.projects-section{
+    background-color: black;
+    width:1200px;
+    height:100px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.info-section{
+    background-color: black;
+    width:1200px;
+    height:100px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.goals-section{
+    background-color: black;
+    width:1200px;
+    height:100px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.education-section{
+    background-color: black;
+    width:1200px;
+    height:100px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.languages-section{
+    background-color: black;
+    width:1200px;
+    height:100px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.techs-section{
+    background-color: black;
+    width:1200px;
+    height:100px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.experience-section{
+    background-color: black;
+    width:1200px;
+    height:100px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.footer{
+    background-color: black;
+    width:1200px;
+    height:100px;
+    margin:auto;
+    margin-top:50px;
+}
