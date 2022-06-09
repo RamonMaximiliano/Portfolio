@@ -7,113 +7,248 @@
     font-size: 18px;
 }
 
-.header{
+.header {
     background-color: black;
-    width:1200px;
-    height:500px;
-    margin:auto;
-    padding:30px;
+    width: 1200px;
+    height: 360px;
+    margin: auto;
+    padding: 20px;
 }
 
-.main-list{
-    display:flex;
+.main-list {
+    display: flex;
     list-style: none;
     align-items: center;
     background-color: black;
-    gap:20px;
-    padding-left:60px;
+    gap: 20px;
+    padding-left: 60px;
 
 }
 
+#profileName {
+    font-size: 40px;
+}
 
-.profileData{
-    margin-top:50px;
-    display:flex;
+.profileData {
+    margin-top: 25px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding-right:150px;
-    padding-left:60px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 
-#profilepic{
-    width:250px;
+#profilepic {
+    width: 250px;
     border-radius: 50%;
 }
 
-.main-list li, #profileName, #profilepic, .info-section strong{
+.main-list li, #profileName, #profilepic, .info-section strong, .sub-profile {
+    background-color: black;
+}
+
+.sub-profile p {
+    background-color: black;
+    margin-top: 20px;
+}
+
+.projects-section {
+    background-color: black;
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.info-section {
+    background-color: black;
+    width: 1200px;
+    height: 165px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.info-section p, .info-section h1 {
+    padding: 5px;
+    background-color: black;
+}
+
+.info-section h1 {
+    font-size: 22px;
+}
+
+
+/* EDUCATION  */
+.education-section {
+    background-color: black;
+    width: 1200px;
+    height: 165px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.education-section p, .education-section h1 {
+    padding: 5px;
+    background-color: black;
+}
+
+.education-section h1 {
+    font-size: 22px;
+}
+/* EDUCATION  */
+
+/* LANGUAGES  */
+.languages-section {
+    background-color: black;
+    width: 1200px;
+    height: 195px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.languages-section p, .languages-section h1 {
+    padding: 5px;
+    background-color: black;
+}
+
+.languages-section h1 {
+    font-size: 22px;
+}
+
+/* LANGUAGES  */
+
+
+
+/* TECHNOLOGIES  */
+.techs-section {
+    background-color: black;
+    width: 1200px;
+    height: 320px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.techs-section p, .techs-section h1 {
+    padding: 5px;
+    background-color: black;
+}
+
+.techs-section h1 {
+    font-size: 22px;
+}
+/* TECHNOLOGIES  */
+
+
+
+
+
+/* EXPERIENCE  */
+.experience-section {
+    background-color: black;
+    width: 1200px;
+    height: 560px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.experience-section h1 {
+    background-color: black;
+
+    font-size: 22px;
+}
+
+.job p, .job h2, .job hr {
+    margin-top: 8px;
+    background-color: black;
+
+}
+
+.job {
+    background-color: black;
+}
+/* EXPERIENCE  */
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: black;
+    width: 1200px;
+    height: 170px;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-message {
+    background-color: black;
+    padding-top: 20px;
+}
+
+.mediaIcons, .mediaIcons a {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    text-align: center;
     background-color: black;
 }
 
 
+.mediaIconGitHub {
+    background: url("images/social-media/github.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
 
-.projects-section{
-    background-color: black;
-    width:1200px;
-    height:100px;
-    margin:auto;
-    margin-top:50px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 1px;
+    margin: 40px;
+    margin-top: 20px;
+    transition: .5s background;
 }
 
-.info-section{
-    background-color: black;
-    width:1200px;
-    height:105px;
-    margin:auto;
-    margin-top:50px;
-    padding:20px;
+.mediaIconLinkedin {
+    background: url("images/social-media/linkedin.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 1px;
+    margin: 40px;
+    margin-top: 20px;
+    transition: .5s background;
 }
 
-.goals-section{
-    background-color: black;
-    width:1200px;
-    height:105px;
-    margin:auto;
-    margin-top:50px;
-    padding:20px;
+.mediaIconGitHub:hover {
+    background: url("images/social-media/github-black.png");
+    background-size: cover;
+    background-color: white;
 }
 
-.education-section{
-    background-color: black;
-    width:1200px;
-    height:100px;
-    margin:auto;
-    margin-top:50px;
-    padding:20px;
+.mediaIconLinkedin:hover {
+    background: url("images/social-media/linkedin-black.png");
+    background-size: cover;
+    background-color: white;
 }
-
-.languages-section{
-    background-color: black;
-    width:1200px;
-    height:100px;
-    margin:auto;
-    margin-top:50px;
-    padding:20px;
-}
-
-.techs-section{
-    background-color: black;
-    width:1200px;
-    height:100px;
-    margin:auto;
-    margin-top:50px;
-    padding:20px;
-}
-
-.experience-section{
-    background-color: black;
-    width:1200px;
-    height:500px;
-    margin:auto;
-    margin-top:100px;
-    padding:30px;
-}
-
-.footer{
-    background-color: black;
-    width:1200px;
-    height:100px;
-    margin:auto;
-    margin-top:50px;
-}
+/* FOOTER */
