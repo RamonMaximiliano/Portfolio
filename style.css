@@ -28,18 +28,18 @@
     font-size: 40px;
 }
 
-.main-list a{
+.main-list a {
     text-decoration: none;
     background-color: rgb(107, 107, 107);
 }
 
-.main-list li{
+.main-list li {
     font-size: 22px;
-    padding:10px;
+    padding: 10px;
     transition: 0.1s background;
 }
 
-.main-list li:hover{
+.main-list li:hover {
     background: rgb(53, 53, 53);
 }
 
@@ -52,7 +52,6 @@
     padding-right: 60px;
     padding-left: 25px;
 }
-
 
 #profilepic {
     width: 250px;
@@ -71,13 +70,13 @@
 .projects-section {
     background-color: black;
     max-width: 1200px;
-    height: 1500px;
+    min-height: 1800px;
     margin: auto;
     margin-top: 30px;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding:10px;
+    padding: 10px;
 }
 
 .info-section {
@@ -99,7 +98,6 @@
     font-size: 22px;
 }
 
-
 /* EDUCATION  */
 .education-section {
     background-color: black;
@@ -119,6 +117,7 @@
 .education-section h1 {
     font-size: 22px;
 }
+
 /* EDUCATION  */
 
 /* LANGUAGES  */
@@ -144,7 +143,6 @@
 /* LANGUAGES  */
 
 
-
 /* TECHNOLOGIES  */
 .techs-section {
     background-color: black;
@@ -164,11 +162,8 @@
 .techs-section h1 {
     font-size: 22px;
 }
+
 /* TECHNOLOGIES  */
-
-
-
-
 
 /* EXPERIENCE  */
 .experience-section {
@@ -183,27 +178,22 @@
 
 .experience-section h1 {
     background-color: black;
-
     font-size: 22px;
 }
 
 .job p, .job h2, .job hr {
     margin-top: 8px;
     background-color: black;
-
 }
 
 .job {
     background-color: black;
 }
+
 /* EXPERIENCE  */
 
 
-
-
-
 /* FOOTER START */
-
 .footer {
     background-color: black;
     width: 1200px;
@@ -222,9 +212,7 @@
 
 /* FOOTER END */
 
-
 /* MEDIA ICONS START */
-
 .mediaIcons, .mediaIcons a {
     width: 430px;
     display: flex;
@@ -234,7 +222,6 @@
     text-align: center;
     background-color: black;
 }
-
 
 .mediaIconGitHub {
     background: url("images/social-media/github.png");
@@ -292,28 +279,50 @@
     background-size: cover;
     background-color: black;
 }
+
 /* MEDIA ICONS END */
 
-
 /*PROJECT CARD*/
-.project-card{
+.project-card {
     align-items: center;
     text-align: center;
-    width:300px;
-    height:380px;
-    background-color: rgb(128, 94, 94);
+    width: 300px;
+    height: 500px;
+    background-color: rgb(95, 95, 95);
 }
 
-.project-card img{
-    width:100px;
+.project-card:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
 }
 
-.card-text{
+.project-card img {
+    height: 50%;
+    width: fit-content;
+}
+
+.card-text {
     text-align: left;
-    padding:5px;
+    padding: 10px;
+    height: 315px;
+    align-items: center;
+
 }
-.card-text h1{
+
+.card-text h1 {
     font-size: 25px;
 }
-/*PROJECT CARD*/
 
+.card-text h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(136, 136, 255);
+}
+
+.linkProject {
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+
+/*PROJECT CARD*/
