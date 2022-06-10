@@ -120,14 +120,16 @@
 
 /* EDUCATION  */
 
+
+
 /* LANGUAGES  */
 .languages-section {
     background-color: black;
-    width: 1200px;
-    height: 195px;
+    max-width: 1200px;
+    min-height: 100px;
     margin: auto;
     margin-top: 30px;
-    padding: 15px;
+    padding: 5px;
     padding-left: 25px;
 }
 
@@ -140,7 +142,38 @@
     font-size: 22px;
 }
 
+.language{
+    display:flex;
+    align-items: center;
+    width:220px;
+    background-color: black;
+    margin:20px;
+}
+
+.language img{
+    width:50px;
+    background-color: black;
+    margin-right:10px;
+}
+
+.languages-subsection{
+    max-width: 1200px;
+    justify-content: space-between;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+.languages-subsection-item{
+    width:500px;
+    background-color: black;
+
+}
+
+
 /* LANGUAGES  */
+
 
 
 /* TECHNOLOGIES  */
