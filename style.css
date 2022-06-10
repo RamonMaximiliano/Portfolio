@@ -1,6 +1,6 @@
 * {
     background: rgb(53, 53, 53);
-    color: white;
+    color: rgb(196, 196, 196);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,9 +10,8 @@
 .header {
     background-color: black;
     width: 1200px;
-    height: 360px;
+    height: 380px;
     margin: auto;
-    padding: 20px;
 }
 
 .main-list {
@@ -21,12 +20,27 @@
     align-items: center;
     background-color: black;
     gap: 20px;
-    padding-left: 60px;
-
+    padding-left: 20px;
+    padding-top: 30px;
 }
 
 #profileName {
     font-size: 40px;
+}
+
+.main-list a{
+    text-decoration: none;
+    background-color: rgb(107, 107, 107);
+}
+
+.main-list li{
+    font-size: 22px;
+    padding:10px;
+    transition: 0.1s background;
+}
+
+.main-list li:hover{
+    background: rgb(53, 53, 53);
 }
 
 .profileData {
@@ -36,7 +50,7 @@
     align-items: center;
     background-color: black;
     padding-right: 60px;
-    padding-left: 60px;
+    padding-left: 25px;
 }
 
 
@@ -57,9 +71,11 @@
 .projects-section {
     background-color: black;
     width: 1200px;
-    height: 100px;
+    height: 1000px;
     margin: auto;
     margin-top: 30px;
+    display:flex;
+    justify-content: space-around;
 }
 
 .info-section {
@@ -86,7 +102,7 @@
 .education-section {
     background-color: black;
     width: 1200px;
-    height: 165px;
+    height: 180px;
     margin: auto;
     margin-top: 30px;
     padding: 15px;
@@ -156,7 +172,7 @@
 .experience-section {
     background-color: black;
     width: 1200px;
-    height: 560px;
+    height: 580px;
     margin: auto;
     margin-top: 30px;
     padding: 15px;
@@ -184,12 +200,12 @@
 
 
 
-/* FOOTER */
+/* FOOTER START */
 
 .footer {
     background-color: black;
     width: 1200px;
-    height: 170px;
+    height: 180px;
     margin: auto;
     margin-top: 30px;
     align-items: center;
@@ -202,8 +218,13 @@
     padding-top: 20px;
 }
 
+/* FOOTER END */
+
+
+/* MEDIA ICONS START */
+
 .mediaIcons, .mediaIcons a {
-    width: 300px;
+    width: 430px;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -218,7 +239,6 @@
     background-size: cover;
     width: 60px;
     height: 60px;
-
     background-color: white;
     border-radius: 50%;
     border: solid 1px;
@@ -240,15 +260,58 @@
     transition: .5s background;
 }
 
-.mediaIconGitHub:hover {
-    background: url("images/social-media/github-black.png");
+.mediaIconWhatsapp {
+    background: url("images/social-media/whatsapp.png");
     background-size: cover;
+    width: 60px;
+    height: 60px;
     background-color: white;
+    border-radius: 50%;
+    border: solid 1px;
+    margin: 40px;
+    margin-top: 20px;
+    transition: .5s background;
+}
+
+.mediaIconGitHub:hover {
+    background: url("images/social-media/github-reverse.png");
+    background-size: cover;
+    background-color: black;
 }
 
 .mediaIconLinkedin:hover {
-    background: url("images/social-media/linkedin-black.png");
+    background: url("images/social-media/linkedin-reverse.png");
     background-size: cover;
-    background-color: white;
+    background-color: black;
 }
-/* FOOTER */
+
+.mediaIconWhatsapp:hover {
+    background: url("images/social-media/whatsapp - reverse.png");
+    background-size: cover;
+    background-color: black;
+}
+/* MEDIA ICONS END */
+
+
+/*PROJECT CARD*/
+.project-card{
+    align-items: center;
+    text-align: center;
+    width:300px;
+    height:390px;
+    background-color: rgb(128, 94, 94);
+}
+
+.project-card img{
+    width:100px;
+}
+
+.card-text{
+    text-align: left;
+    padding:5px;
+}
+.card-text h1{
+    font-size: 25px;
+}
+/*PROJECT CARD*/
+
