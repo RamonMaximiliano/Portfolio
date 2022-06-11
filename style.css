@@ -10,7 +10,7 @@
 .header {
     background-color: black;
     width: 1200px;
-    height: 380px;
+    height: 390px;
     margin: auto;
 }
 
@@ -40,7 +40,9 @@
 }
 
 .main-list li:hover {
-    background: rgb(53, 53, 53);
+    /*     background: rgb(53, 53, 53);
+ */
+    text-decoration: underline;
 }
 
 .profileData {
@@ -62,9 +64,28 @@
     background-color: black;
 }
 
-.sub-profile p {
+.sub-profile p, .sub-profile h2, .sub-profile strong {
     background-color: black;
-    margin-top: 20px;
+    margin-top: 5px;
+}
+
+.sub-profile p {
+    line-height: 1.5;
+    margin-top: -1px;
+}
+
+.mediaIconsHeader {
+    display: flex;
+    width: 300px;
+    height: 90px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.mediaIconsHeader a {
+    background-color: black;
 }
 
 .projects-section {
@@ -101,8 +122,8 @@
 /* EDUCATION  */
 .education-section {
     background-color: black;
-    width: 1200px;
-    height: 180px;
+    max-width: 1200px;
+    min-height: 180px;
     margin: auto;
     margin-top: 30px;
     padding: 15px;
@@ -130,7 +151,8 @@
     margin: auto;
     margin-top: 30px;
     padding: 5px;
-    padding-left: 25px;
+    align-items: center;
+    text-align: center;
 }
 
 .languages-section p, .languages-section h1 {
@@ -139,34 +161,36 @@
 }
 
 .languages-section h1 {
-    font-size: 22px;
+    font-size: 25px;
 }
 
-.language{
-    display:flex;
+.language {
+    display: flex;
     align-items: center;
-    width:220px;
+    width: 220px;
     background-color: black;
-    margin:20px;
+    margin: 20px;
 }
 
-.language img{
-    width:50px;
+.language img {
+    width: 50px;
     background-color: black;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
-.languages-subsection{
-    max-width: 1200px;
+.languages-subsection {
+    max-width: 1000px;
+    margin: auto;
     justify-content: space-between;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     background-color: black;
-
+    text-align: center;
+    align-items: center;
 }
 
-.languages-subsection-item{
-    width:500px;
+.languages-subsection-item {
+    width: 300px;
     background-color: black;
 }
 
@@ -184,6 +208,8 @@
     margin-top: 30px;
     padding: 15px;
     padding-left: 25px;
+    align-items: center;
+    text-align: center;
 }
 
 .techs-section p, .techs-section h1 {
@@ -192,27 +218,28 @@
 }
 
 .techs-section h1 {
-    font-size: 22px;
+    font-size: 25px;
+
 }
 
-.tech{
-    width:200px;
-    display:flex;
+.tech {
+    width: 200px;
+    display: flex;
     align-items: center;
     background-color: black;
-    margin:20px;
+    margin: 20px;
 }
 
-.tech img{
-    width:70px;
+.tech img {
+    width: 70px;
     background-color: black;
 }
 
-.techs-sub-section{
-    max-width:1000px;
-    margin:auto;
+.techs-sub-section {
+    max-width: 1000px;
+    margin: auto;
     background-color: black;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -228,8 +255,8 @@
 /* EXPERIENCE  */
 .experience-section {
     background-color: black;
-    width: 1200px;
-    height: 580px;
+    max-width: 1200px;
+    min-height: 700px;
     margin: auto;
     margin-top: 30px;
     padding: 15px;
@@ -238,7 +265,8 @@
 
 .experience-section h1 {
     background-color: black;
-    font-size: 22px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .job p, .job h2, .job hr {
@@ -246,8 +274,14 @@
     background-color: black;
 }
 
+.job h2 {
+    font-size: 22px;
+}
+
 .job {
     background-color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* EXPERIENCE  */
@@ -256,8 +290,8 @@
 /* FOOTER START */
 .footer {
     background-color: black;
-    width: 1200px;
-    height: 180px;
+    max-width: 1200px;
+    min-height: 180px;
     margin: auto;
     margin-top: 30px;
     align-items: center;
@@ -267,15 +301,17 @@
 
 .footer-message {
     background-color: black;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 /* FOOTER END */
 
 /* MEDIA ICONS START */
 .mediaIcons, .mediaIcons a {
-    width: 430px;
+    max-width: 430px;
     display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
     justify-content: space-between;
     margin: auto;
     align-items: center;
@@ -291,8 +327,6 @@
     background-color: white;
     border-radius: 50%;
     border: solid 1px;
-    margin: 40px;
-    margin-top: 20px;
     transition: .5s background;
 }
 
@@ -304,8 +338,6 @@
     background-color: white;
     border-radius: 50%;
     border: solid 1px;
-    margin: 40px;
-    margin-top: 20px;
     transition: .5s background;
 }
 
@@ -317,8 +349,6 @@
     background-color: white;
     border-radius: 50%;
     border: solid 1px;
-    margin: 40px;
-    margin-top: 20px;
     transition: .5s background;
 }
 

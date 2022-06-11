@@ -7,9 +7,6 @@ function gitHubProfile() {
         })
 
         .then(function (json) {
-            console.log(json)
-            console.log(json.avatar_url)
-
             document.getElementById("profilepic").setAttribute("src", json.avatar_url)
             document.getElementById("profileName").innerHTML = json.name
         })
