@@ -451,7 +451,8 @@
 
 .project-card img {
     height: 50%;
-    width: fit-content;
+    max-width:100%;
+    width:fit-content;
 }
 
 .card-text {
@@ -479,3 +480,24 @@
 }
 
 /*PROJECT CARD*/
+
+
+.homePage{
+    max-width: 1200px;
+    min-height: 80px;
+    background-color: black;
+    margin:auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 500%;
+}
+.homePage a{
+    text-decoration: none;
+    background-color: black;
+    font-size: 25px;
+}
+.homePage a:hover{
+    text-decoration: underline;
+}
+
