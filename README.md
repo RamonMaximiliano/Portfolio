@@ -14,4 +14,4 @@ Just started the project base...
 
 Project link:
 
-https://ramonmaximiliano.github.io/Portfolio/
+<a href="https://ramonmaximiliano.github.io/Portfolio/" target="_blank">Portfolio link</a>
