@@ -96,7 +96,7 @@
 .projects-section {
     background-color: black;
     max-width: 1200px;
-    min-height: 1800px;
+    min-height: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -458,7 +458,7 @@
 .card-text {
     text-align: left;
     padding: 10px;
-    height: 315px;
+    height: 250px;
     align-items: center;
 
 }
@@ -476,7 +476,7 @@
 .linkProject {
     text-decoration: none;
     margin-top: 15px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 /*PROJECT CARD*/
