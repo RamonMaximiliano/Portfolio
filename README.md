@@ -6,7 +6,14 @@ Jun 08, 2022
 
 ## Português:
 
-Apenas comecei a base do projeto...
+Apenas comecei a base do projeto.
+
+Will add:
+
+- Theme color change
+- Fix header menu
+
+
 
 ## English:
 
