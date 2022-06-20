@@ -12,7 +12,7 @@ Will add:
 
 - Theme color change
 - Fix header menu
-
+- Color change list item in the menu
 
 
 ## English:
