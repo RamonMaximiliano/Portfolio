@@ -17,7 +17,12 @@ function gitHubProfile() {
         })
 }
 
-
-
 window.onload = gitHubProfile()
 
+function showDropDown(){
+    document.getElementById("themes").style.display = "block";
+}
+
+function hideDropDown(){
+    document.getElementById("themes").style.display = "none";
+}

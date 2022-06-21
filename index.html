@@ -11,7 +11,7 @@
 
 <body>
     <header class="header">
-        <div>
+        <nav>
             <ul class="main-list">
                 <a href="#info-section">
                     <li class="info">Info</li>
@@ -31,8 +31,20 @@
                 <a href="#experience-section">
                     <li class="experience">Experience</li>
                 </a>
+                <li class="dropdown" onmouseover="showDropDown()" onmouseout="hideDropDown()">
+                    Theme
+                   <ul id="themes">
+                      <li class="Theme2">Black</li>
+                      <li class="Theme2">Blue</li>
+                      <li class="Theme2">White</li>
+                      <li class="Theme2">Red</li>
+                      <li class="Theme2">Purple</li>
+                      <li class="Theme2">Green</li>
+                    </ul>
+                </li>
+
             </ul>
-        </div>
+        </nav>
     </header>
 
     <div class="profileData" id="info-section">
