@@ -11,7 +11,21 @@
 
 <body>
     <div class="homePage">
-        <a href="index.html">Home</a>
+        <ul class="projects-list">
+            <a href="index.html">
+                <li class="info">Home</li>
+            </a>
+            <li class="dropdown" onmouseover="showDropDown()" onmouseout="hideDropDown()">
+                Theme
+                <ul id="themes">
+                    <li id="Black" class="color-theme">Black</li>
+                    <li id="Blue" class="color-theme">Blue</li>
+                    <li id="White" class="color-theme">White</li>
+                    <li id="Red" class="color-theme">Red</li>
+                    <li id="Purple" class="color-theme">Purple</li>
+                    <li id="Green" class="color-theme">Green</li>
+                </ul>
+            </li>
     </div>
 
 
@@ -249,7 +263,7 @@
 
         <!-- EIGTH ROW END-->
 
-                <!-- FIRST ROW START-->
+        <!-- FIRST ROW START-->
         <a href="https://ramonmaximiliano.github.io/JavaScriptToDo/" class="linkProject" target="_blank"
             title="Check this project">
             <div class="project-card">
@@ -350,6 +364,7 @@
 
 
 
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 

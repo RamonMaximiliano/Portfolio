@@ -10,11 +10,11 @@ function gitHubProfile() {
             document.getElementById("profilepic").setAttribute("src", json.avatar_url)
             document.getElementById("profileName").innerHTML = json.name
         })
-
-
-        .catch(function () {
-            window.alert("No internet connection or GitHub is down!")
-        })
+    /* 
+    
+            .catch(function () {
+                window.alert("No internet connection or GitHub is down!")
+            }) */
 }
 
 window.onload = gitHubProfile()
