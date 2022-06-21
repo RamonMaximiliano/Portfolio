@@ -528,7 +528,29 @@
 }
 #themes li{ 
 padding:15px;
+border-bottom: 0.1px solid rgb(112, 112, 112);
 }
+
+#Black{
+    color: rgb(102, 101, 101);
+}
+
+#Blue{
+    color: Blue;
+}
+#White{
+    color: White;
+}
+#Red{
+    color: Red;
+}
+#Purple{
+    color: Purple;
+}
+#Green{
+    color: Green;
+}
+
 
 
 /* THEME DROP DOWN */
