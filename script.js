@@ -43,11 +43,11 @@ color_theme.forEach(function test(item) {
             root.style.setProperty("--card-text", "rgb(31, 31, 31)")
 
         } else if (current_color == 'Blue') {
-            root.style.setProperty("--black", "rgb(0, 0, 100)");
+            root.style.setProperty("--black", "rgb(0, 0, 66)");
             root.style.setProperty("--back-original", "rgb(133, 170, 250)")
             root.style.setProperty("--card-shadow", "rgb(107, 161, 231)")
             root.style.setProperty("--card-back", "rgb(93, 144, 255)")
-            root.style.setProperty("--card-text", "rgb(2, 2, 172)")
+            root.style.setProperty("--card-text", "rgb(0, 0, 122)")
         }
         else if (current_color == 'White') {
             root.style.setProperty("--black", "rgb(83, 83, 83)");
@@ -57,14 +57,14 @@ color_theme.forEach(function test(item) {
             root.style.setProperty("--card-text", "rgb(90, 90, 90)")
         }
         else if (current_color == 'Red') {
-            root.style.setProperty("--black", "rgb(75, 0, 0)");
+            root.style.setProperty("--black", "rgb(61, 0, 0)");
             root.style.setProperty("--back-original", "rgb(233, 106, 106)")
             root.style.setProperty("--card-shadow", "rgb(233, 106, 106)")
-            root.style.setProperty("--card-back", "rgb(143, 25, 25)")
-            root.style.setProperty("--card-text", "rgb(163, 59, 59)")
+            root.style.setProperty("--card-back", "rgb(255, 100, 100)")
+            root.style.setProperty("--card-text", "rgb(117, 2, 2)")
         }
         else if (current_color == 'Green') {
-            root.style.setProperty("--black", "rgb(2, 65, 2)");
+            root.style.setProperty("--black", "rgb(0, 51, 0)");
             root.style.setProperty("--back-original", "rgb(149, 231, 149)")
             root.style.setProperty("--card-shadow", "rgb(107, 161, 231)")
             root.style.setProperty("--card-back", "rgb(149, 231, 149)")

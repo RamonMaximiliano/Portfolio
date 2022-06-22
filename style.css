@@ -7,6 +7,12 @@
     --card-text: rgb(31, 31, 31);
 }
 
+
+.class {
+    color: rgb(93, 144, 255);
+    color: rgb(0, 51, 0)
+}
+
 * {
     background: var(--back-original);
     color: rgb(184, 184, 184);
