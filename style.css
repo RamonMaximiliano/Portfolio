@@ -112,6 +112,12 @@
     border-radius: 50%;
 }
 
+.main-picture{
+    background-color: var(--black);
+
+}
+
+
 #profileName {
     font-size: 40px;
 }
