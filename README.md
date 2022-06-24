@@ -8,17 +8,12 @@ Jun 08, 2022
 
 Apenas comecei a base do projeto.
 
-Will add:
-
-- Theme color change
-- Fix header menu
-- Color change list item in the menu
-
+Link do projeto:
+https://ramonmaximiliano.github.io/Portfolio/
 
 ## English:
 
 Just started the project base...
 
 Project link:
-
 https://ramonmaximiliano.github.io/Portfolio/
