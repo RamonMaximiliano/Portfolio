@@ -6,14 +6,14 @@ Jun 08, 2022
 
 ## Português:
 
-Apenas comecei a base do projeto.
+Primeiro portfólio
 
 Link do projeto:
 https://ramonmaximiliano.github.io/Portfolio/
 
 ## English:
 
-Just started the project base...
+First portfolio
 
 Project link:
 https://ramonmaximiliano.github.io/Portfolio/
